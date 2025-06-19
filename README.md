@@ -44,4 +44,4 @@ Create a separate `.env` file for the tests named `.env.test` an    d store the 
 
 ## DOCUMENTATION
 
-+ To Generate OpenAPI documentation with [**apidoc**](https://www.    npmjs.com/package/apidoc)          
++ Generate OpenAPI documentation with [**apidoc**](https://www.npmjs.com/package/apidoc).          
