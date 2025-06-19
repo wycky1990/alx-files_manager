@@ -20,13 +20,13 @@ A simple file management API built with Express, MongoDB, Redis, Bull, and Node.
 The required environment variables should be stored in a file named `.env` and each line should have the format `Name=Value`. The table below lists the environment variables that will be used by this server:
 
 | Name | Required | Description |
- 23 |:-|:-|:-|
-| GOOGLE_MAIL_SENDER | Yes | The email address of the account resp    onsible for sending emails to users. |
-| PORT | No (Default: `5000`)| The port the server should listen a    t. |
+|:-|:-|:-|
+| GOOGLE_MAIL_SENDER | Yes | The email address of the account responsible for sending emails to users. |
+| PORT | No (Default: `5000`)| The port the server should listen at. |
 | DB_HOST | No (Default: `localhost`)| The database host. |
 | DB_PORT | No (Default: `27017`)| The database port. |
-| DB_DATABASE | No (Default: `files_manager`)| The database name.     |
-| FOLDER_PATH | No (Default: `/tmp/files_manager` (Linux, Mac OS X    ) & `%TEMP%/files_manager` (Windows)) | The local folder where fil    es are saved. |
+| DB_DATABASE | No (Default: `files_manager`)| The database name. |
+| FOLDER_PATH | No (Default: `/tmp/files_manager` (Linux, Mac OS X) & `%TEMP%/files_manager` (Windows)) | The local folder where files are saved. |
 
 ## INSTALLATION
 
@@ -44,5 +44,4 @@ Create a separate `.env` file for the tests named `.env.test` an    d store the 
 
 ## DOCUMENTATION
 
-+ To Generate OpenAPI documentation with [**apidoc**](https://www.    npmjs.com/package/apidoc).
-                                      
++ To Generate OpenAPI documentation with [**apidoc**](https://www.    npmjs.com/package/apidoc)          
